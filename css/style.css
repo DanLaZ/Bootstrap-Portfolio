@@ -46,6 +46,7 @@ nav li {
     text-transform: uppercase;
     background-color: #4aaaa5;
     padding: 20px;
+    color: #ffffff;
     
 }
 
@@ -60,6 +61,14 @@ section {
 
 }
 
+section h2 {
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
 .pull-left {
     float: left;
 }
@@ -70,6 +79,7 @@ section {
     margin-bottom: 20px;
     margin-top: 20px;
     border: 2px solid #dddddd;
+    padding-left: 20px;
 }
 
 #ABOUTimg {
@@ -90,6 +100,7 @@ p {
     position: relative;
     padding-bottom: 20px;
     height: 100%;
+    float: left;
 }
 
 .PortHead {
