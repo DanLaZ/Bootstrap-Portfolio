@@ -10,6 +10,10 @@ body {
 
 
 
+.navbar {
+    padding: 0px;
+}
+
 header {
     background-color: #ffffff;
 
@@ -41,11 +45,30 @@ nav li {
     font-size: 30px;
     text-transform: uppercase;
     background-color: #4aaaa5;
+    padding: 20px;
+    
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.pull-left {
+    float: left;
 }
 
 .Content {
     background-color: #ffffff;
     margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border: 2px solid #dddddd;
 }
 
@@ -58,6 +81,12 @@ nav li {
 
 p {
     color: #777777;
+}
+
+.img-stuff {
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 
